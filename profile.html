@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="nav.css"/>
+  <title>User Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      background-color: #f5f5f5;
+    }
+
+    #profile-container {
+      
+      width: 50%;
+      /* max-width: 100%; */
+      background-color: #ffffff;
+      /* padding: 30px; */
+      /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    #profile-image {
+      border-radius: 100%;
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 2px;
+      color: #555;
+    }
+
+    input {
+      width: calc(100% - 16px);
+      padding: 10px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- <div>
+    <div style="display: flex; flex-direction: row; gap: 0.5rem;">
+      <div class="wrapper">
+          <div class="sidebar">
+              <h2>Student Access</h2>
+              <ul>
+                  <li><a href="home.html"><i class="fas fa-home"></i>Home</a></li>
+                  <li><a href="profile.html"><i class="fas fa-user"></i>Profile</a></li>
+                  <li><a href="resume.html"><i class="fas fa-file"></i>Resume</a></li>
+                  <li><a href="#"><i class="fas fa-folder-open"></i>Teacher</a></li>
+                  <li><a href="#"><i class="fas fa-folder"></i>Events</a></li>
+              </ul> 
+          </div>
+      </div>
+    </div>   --> 
+
+
+    
+<div id="profile-container">
+  <img id="profile-image" src="https://imgs.search.brave.com/G2ErgjdyLbP45FQ9QUvNw022n_8Jh1yf8wIbto-k34A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/OTUyMzE5MTYzNTYt/YTg2MjE3ZWZmZjEy/P2l4bGliPXJiLTQu/MC4zJml4aWQ9TTN3/eE1qQTNmREI4TUh4/elpXRnlZMmg4Tm54/OGNHaHZkRzk4Wlc1/OE1IeDhNSHg4ZkRB/PSZ3PTEwMDAmcT04/MA.jpeg" alt="Profile Image">
+  <h2>User Profile</h2>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="John Doe">
+
+  <label for="degree">Degree:</label>
+  <input type="text" id="degree" placeholder="Bachelor's in Science">
+
+  <label for="college">College/University Name:</label>
+  <input type="text" id="college" placeholder="ABC University">
+
+  <label for="divName">Division/Department Name:</label>
+  <input type="text" id="divName" placeholder="Physics Department">
+
+  <label for="class">Class:</label>
+  <input type="text" id="class" placeholder="Class 10">
+
+  <label for="rollNo">Roll Number:</label>
+  <input type="text" id="rollNo" placeholder="123">
+
+  <label for="prnNo">PRN Number:</label>
+  <input type="text" id="prnNo" placeholder="PRN123456">
+
+  <label for="mobile">Mobile Number:</label>
+  <input type="text" id="mobile" placeholder="123-456-7890">
+
+  <button onclick="submitProfile()">Submit</button>
+</div>
+
+<script>
+  function submitProfile() {
+    var name = document.getElementById('name').value;
+    var degree = document.getElementById('degree').value;
+    var college = document.getElementById('college').value;
+    var divName = document.getElementById('divName').value;
+    var userClass = document.getElementById('class').value;
+    var rollNo = document.getElementById('rollNo').value;
+    var prnNo = document.getElementById('prnNo').value;
+    var mobile = document.getElementById('mobile').value;
+
+    console.log("Name: " + name);
+    console.log("Degree: " + degree);
+    console.log("College: " + college);
+    console.log("Division/Department Name: " + divName);
+    console.log("Class: " + userClass);
+    console.log("Roll Number: " + rollNo);
+    console.log("PRN Number: " + prnNo);
+    console.log("Mobile Number: " + mobile);
+
+    // Additional logic or data handling can be added here.
+  }
+</script>
+
+</body>
+</html>

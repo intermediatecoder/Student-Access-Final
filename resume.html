@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="resume.css"/>
+    <link rel="stylesheet" href="nav.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div>
+  <div style="display: flex; flex-direction: row; gap: 0.5rem;">
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Student Opportunities</h2>
+            <ul>
+                <li><a href="home.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="profile.html"><i class="fas fa-user"></i>Profile</a></li>
+                <li><a href="resume.html"><i class="fas fa-file"></i>Resume</a></li>
+                <li><a href="#"><i class="fas fa-folder-open"></i>video</a></li>
+                <li><a href="#"><i class="fas fa-folder"></i>Events</a></li>
+            </ul> 
+        </div>
+    </div>
+  </div>  
+  <div class="wrapper">
+  
+    <div class="main-content">
+        <div id="drop-zone">
+            <i class="file-icon">&#x1F4C1;</i>
+            <p>Drag and drop files or folders here</p>
+            <p>or</p>
+            <p>Click to select files</p>
+            <input type="file" id="file-input" multiple>
+        </div>
+
+        <div class="upload-info">
+            <ul class="files-list">
+              </ul>
+        </div>
+        
+        <script>
+            function handleFileUpload(filesList) {
+                const files = Array.from(filesList);
+                const filesListElement = document.querySelector(".files-list");
+
+                // Handle each file or folder here
+                // for (var i = 0; i < files.length; i++) {
+                //     var file = files[i];
+                //     console.log('File or folder:', file.name);
+                //     // Process the file or folder as per your requirement
+                // }
+
+                filesListElement.innerHTML = files
+                    .map(file => `<li>${file.name}</li>`)
+                    .join("\n");
+            }
+
+            function handleDrop(event) {
+                event.preventDefault();
+                var files = event.dataTransfer.files;
+                handleFileUpload(files);
+                document.getElementById('drop-zone').classList.remove('drag-over');
+            }
+
+            function handleDragOver(event) {
+                event.preventDefault();
+                document.getElementById('drop-zone').classList.add('drag-over');
+            }
+
+            function handleDragLeave(event) {
+                event.preventDefault();
+                document.getElementById('drop-zone').classList.remove('drag-over');
+            }
+
+            function handleFileInput(event) {
+                var files = event.target.files;
+                handleFileUpload(files);
+            }
+
+            function setupDropZone() {
+                var dropZone = document.getElementById('drop-zone');
+
+                dropZone.addEventListener('dragover', handleDragOver);
+                dropZone.addEventListener('dragleave', handleDragLeave);
+                dropZone.addEventListener('drop', handleDrop);
+
+                // Open file dialog when clicking on the drop zone
+                dropZone.addEventListener('click', function () {
+                    var fileInput = document.getElementById('file-input');
+                    fileInput.click();
+                });
+            }
+
+            window.addEventListener('DOMContentLoaded', setupDropZone);
+            document.getElementById('file-input').addEventListener('change', handleFileInput);
+        </script>      
+    </div>
+</div>
+
+</div>
+
+    <div class="template">
+    <img
+  src="https://imgs.search.brave.com/j8zKeKIbI24bbK367q1MGEJW0HSAueRiFX2dN__aTXA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93ZW1l/YW5jYXJlZXIuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIw/LzAyL3Byb2Zlc3Np/b25hbC1yZXN1bWUt/dGVtcGxhdGUtbmF2/aS5wbmc"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/GGfMFfa9w3pIDAKXBdNdEWFLPxlboxZPjeLrEPQdZ5A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9yZXN1/bWVnZW5pdXMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9mdW4t/cGhvdG8tcmVzdW1l/LXRlbXBsYXRlLWJs/dWUucG5n"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/yVMk9rl4Goi3JmFYwzXSj8kubCH32nZDNJSqOuTcixI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFX0hB/bXhOMVEvMS8wLzEx/MzF3L2NhbnZhLXBy/b2Zlc3Npb25hbC1j/di1yZXN1bWUtaDBT/M1dwY1lsZjguanBn"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/EKG0GYM84iUvAp9M9Z-hUCTQ80Cjk6HlEn4zJZFkUsc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFNXZX/aGJPeEEvMS8wLzEx/MzF3L2NhbnZhLWJl/aWdlLW1vZGVybi1z/aW1wbGUtcHJvZmVz/c2lvbmFsLXJlc3Vt/ZS10ZW1wbGF0ZS1y/b0RlN2VhMlBDay5q/cGc"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/EKG0GYM84iUvAp9M9Z-hUCTQ80Cjk6HlEn4zJZFkUsc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFNXZX/aGJPeEEvMS8wLzEx/MzF3L2NhbnZhLWJl/aWdlLW1vZGVybi1z/aW1wbGUtcHJvZmVz/c2lvbmFsLXJlc3Vt/ZS10ZW1wbGF0ZS1y/b0RlN2VhMlBDay5q/cGc"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/EKG0GYM84iUvAp9M9Z-hUCTQ80Cjk6HlEn4zJZFkUsc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFNXZX/aGJPeEEvMS8wLzEx/MzF3L2NhbnZhLWJl/aWdlLW1vZGVybi1z/aW1wbGUtcHJvZmVz/c2lvbmFsLXJlc3Vt/ZS10ZW1wbGF0ZS1y/b0RlN2VhMlBDay5q/cGc"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/EKG0GYM84iUvAp9M9Z-hUCTQ80Cjk6HlEn4zJZFkUsc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFNXZX/aGJPeEEvMS8wLzEx/MzF3L2NhbnZhLWJl/aWdlLW1vZGVybi1z/aW1wbGUtcHJvZmVz/c2lvbmFsLXJlc3Vt/ZS10ZW1wbGF0ZS1y/b0RlN2VhMlBDay5q/cGc"
+  class="profile-image"
+/>
+<img
+  src="https://imgs.search.brave.com/EKG0GYM84iUvAp9M9Z-hUCTQ80Cjk6HlEn4zJZFkUsc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFNXZX/aGJPeEEvMS8wLzEx/MzF3L2NhbnZhLWJl/aWdlLW1vZGVybi1z/aW1wbGUtcHJvZmVz/c2lvbmFsLXJlc3Vt/ZS10ZW1wbGF0ZS1y/b0RlN2VhMlBDay5q/cGc"
+  class="profile-image"
+/>
+<div class="popup hidden">
+  <img
+    class="full-image"
+  />
+</div>
+</div>
+<script src="resume.js"></script>
+</body>
+</html>

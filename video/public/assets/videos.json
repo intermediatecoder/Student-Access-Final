@@ -1,0 +1,175 @@
+[
+    {
+        "thumbnail": "https://tse4.mm.bing.net/th?id=OIP.vuoMD0MTyC3XQwO-ebS28AHaGw&pid=Api&P=0&h=220",
+        "videoURL": "#",
+        "duration": "6:25",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": "Deep ",
+            "channelURL": "#",
+            "title": "Deep Learning Success Stories ",
+            "views": "100",
+            "published": "1 week"
+        }
+    },
+    {
+        "thumbnail": "https://tse2.mm.bing.net/th?id=OIP.AU2z9VynGu7Eqr5qL9TwJQHaFD&pid=Api&P=0&h=220",
+        "videoURL": "#",
+        "duration": "11:00",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "Representation Power of MLPs ",
+            "views": "10",
+            "published": "2 week"
+        }
+    },
+    {
+        "thumbnail": "https://stackabuse.s3.amazonaws.com/media/deep-learning-in-keras-building-a-deep-learning-model-1.png",
+        "videoURL": "#",
+        "duration": "11:00",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "FeedForward Neural Networks ",
+            "views": "250",
+            "published": "4 week"
+        }
+    },
+    {
+        "thumbnail": "https://www.researchgate.net/profile/F_Kusmartsev/publication/303280939/figure/fig8/AS:667697058684933@1536202792710/Diagram-of-the-McCulloch-Pitts-model-for-neural-networks-source-enwikibooksorg-Each.png",
+        "videoURL": "#",
+        "duration": "10:25",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "McCulloch Pitts Neuron",
+            "views": "100k",
+            "published": "3 week"
+        }
+    },
+    {
+        "thumbnail": "https://i.ytimg.com/vi/lJ4rtzNfJe4/maxresdefault.jpg",
+        "videoURL": "#",
+        "duration": "15:00",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": ", Gradient Descent ",
+            "views": "10k",
+            "published": "5 week"
+        }
+    },
+    {
+        "thumbnail": "https://i.ytimg.com/vi/AB0RS2lJk7Y/maxresdefault.jpg",
+        "videoURL": "#",
+        "duration": "9:00",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "Momentum Based GD",
+            "views": "20k",
+            "published": "5 week"
+        }
+    },
+   
+    {
+        "thumbnail": "https://i.ytimg.com/vi/b4HXoFW04-g/maxresdefault.jpg",
+        "videoURL": "#",
+        "duration": "5:00",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "L2 regularization",
+            "views": "25k",
+            "published": "6 week"
+        }
+    },
+    {
+        "thumbnail": "https://i.ytimg.com/vi/u-L72NbWPBo/maxresdefault.jpg",
+        "videoURL": "#",
+        "duration": "8:00",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "Batch Normalization                  ",
+            "views": "215k",
+            "published": "7 week"
+        }
+    },
+    {
+        "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.mZtB-5Rw8sjLlijl3_bsAQHaE1&pid=Api&P=0&h=220",
+        "videoURL": "#",
+        "duration": "8:40",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "Convolutional Neural Networks",
+            "views": "15k",
+            "published": "8 week"
+        }
+    },
+    {
+        "thumbnail": "https://mukulrathi.co.uk/static/2c1d7428583927bc8ad4c2f14d770b75/9d4f3/backprop.jpg",
+        "videoURL": "#",
+        "duration": "12:40",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": " Back propagation through time ",
+            "views": "25k",
+            "published": "7 week"
+        }
+    },
+
+    {
+        "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.YAPAHVYhsaEARYz45bO0GgHaDd&pid=Api&P=0&h=220",
+        "videoURL": "#",
+        "duration": "12:40",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "Encoder Decoder Models",
+            "views": "25k",
+            "published": "7 week"
+        }
+    },
+
+    {
+        "thumbnail": "https://www.researchgate.net/profile/Amine-Amyar/publication/346144462/figure/fig4/AS:961297965408258@1606202703821/Hard-parameter-sharing-for-multi-task-learning-in-deep-neural-networks-used-in-our_Q640.jpg",
+        "videoURL": "#",
+        "duration": "12:40",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": " Parameter sharing and tying",
+            "views": "25k",
+            "published": "7 week"
+        }
+    },
+
+    {
+        "thumbnail": "https://cdn.analyticsvidhya.com/wp-content/uploads/2021/05/291611_dmRbfOye2PcDMl2-bQazVg.jpeg",
+        "videoURL": "#",
+        "duration": "11:40",
+        "desc": {
+            "channelLogo": "https://tse2.mm.bing.net/th?id=OIP.1yoSL-WO0YU5mQKROudvswHaHa&pid=Api&P=0&h=220",
+            "channelName": " Deep Learning",
+            "channelURL": "#",
+            "title": "Better weight initialization methods",
+            "views": "5k",
+            "published": "9 week"
+        }
+    }
+]

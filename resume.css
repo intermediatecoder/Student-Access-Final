@@ -1,0 +1,96 @@
+
+* {
+	margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+  height: 100%;
+  background-color: #e6e6e6;
+}
+
+.template{
+    padding-top: 0%;
+    padding-left: 13%;
+}
+
+.popup {
+  z-index: 1;
+  background: whitesmoke;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-image {
+  height: 100%;
+  padding-right: 30%;
+}
+
+.hidden {
+  display: none;
+}
+
+.profile-image{
+    height: 280px;
+    width: 210px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+
+#drop-zone {
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #f7f7f7;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* padding-left: 40%; */
+  
+  
+}
+
+#drop-zone:hover {
+  background-color: #eaeaea;
+}
+
+#drop-zone.drag-over {
+  background-color: #f3f3f3;
+}
+
+#drop-zone p {
+  margin: 0;
+  padding: 10px;
+  
+}
+
+#drop-zone .file-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#file-input {
+  display: none;
+}
+
+.files-list {
+  padding: 1rem;
+}
+
+.main-content{
+  padding-top: 5%;
+  padding-left: 45%;
+}
